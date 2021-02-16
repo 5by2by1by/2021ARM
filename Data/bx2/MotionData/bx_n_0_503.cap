@@ -1,0 +1,11 @@
+#Capture file written by Cortex
+Calibration=setup.cal
+RawCameraData=VCFiles\bx_n_0_503\bx_n_0_503.vc1
+UnnamedMarkers=bx_n_0_503-Unnamed.trb
+UnnamedMarkers=bx_n_0_503-Unnamed.trc
+#
+MarkerSet=43 walk origin .mars
+{
+	TracksFile=bx_n_0_503.trb
+	TracksFile=bx_n_0_503.trc
+}

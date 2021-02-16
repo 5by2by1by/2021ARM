@@ -1,0 +1,318 @@
+[Video System]
+InitHardware=1
+VideoStandard=7
+MonitorType=2
+Comment= C_Name, C_Type, L_Type, C_Rate, VP_Rate, Active, VCRType, VCRStat, LCGridName, Threshold, Brightness
+NumberOfChannels=8
+66100201, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 498, 100
+66100202, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 430, 100
+66100203, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 400, 100
+66100204, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 470, 100
+66100205, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 568, 100
+66100206, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 651, 100
+66100207, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 533, 100
+66100208, 100, 0, 50.000000, 50.000000, 1, 0, 0, , 435, 100
+[Video System Raptor Extension]
+Comment= C_Name, HWMode, GSVizMode, GSThreshMin, GSThreshMax, MinDia, MaxDia, GSMargin, OvalLimit
+NumberOfChannels=8
+66100201, 2, 0, 200, 1023, 2, 50, 4, 2
+66100202, 2, 0, 200, 1023, 2, 50, 4, 2
+66100203, 2, 0, 200, 1023, 2, 50, 4, 2
+66100204, 2, 0, 200, 1023, 2, 50, 4, 2
+66100205, 2, 0, 200, 1023, 2, 50, 4, 2
+66100206, 2, 0, 200, 1023, 2, 50, 4, 2
+66100207, 2, 0, 200, 1023, 2, 50, 4, 2
+66100208, 2, 0, 200, 1023, 2, 50, 4, 2
+[Analog System]
+Comment= ChNum, ChName, ChGain, ActiveStat, SampleRate, SmoothType, SmoothValue
+InitHardware=1
+Autozero=1
+BoardType=
+TerminalConfig=RSE
+VideoRateMultiple=1
+BitDepth=0
+NumberOfChannels=0
+[ForcePlateOptions]
+UseForceThreshold=1
+ForceThreshold=5.000000
+CheckOnPlate=1
+CheckOnPlateMargin=0.000000
+ForcePlateSteps_Enabled=0
+DigitalPlatesEnabled=1
+[Force Plate Config]
+Comment=This comment is needed for EVaRT
+[Events2]
+[KinToolsRTGroundReactionForcesFilterOptions]
+Filter=NONE
+GCVSplineOrder=3
+[DataCollectionVideoMasks]
+NumberOfChannels=8
+NumMasksCamera1=1
+579.565552, 372.371124, 590.376038, 394.402374, 2
+NumMasksCamera2=0
+NumMasksCamera3=0
+NumMasksCamera4=5
+312.004242, 364.163513, 321.313507, 383.602722, 2
+571.758118, 26.782949, 581.667603, 39.742729, 2
+273.266632, 74.301361, 277.770905, 83.373299, 2
+466.355133, 452.288513, 486.474823, 470.000000, 2
+484.372772, 410.386139, 489.177124, 421.185791, 2
+NumMasksCamera5=2
+267.561279, 262.214874, 272.966522, 269.991028, 2
+481.669861, 249.255585, 505.993713, 276.038513, 2
+NumMasksCamera6=0
+NumMasksCamera7=0
+NumMasksCamera8=1
+76.274147, 254.871140, 93.090698, 287.702057, 2
+[DataCollectionVideoMasks2]
+NumberOfChannels=8
+NumMasksCamera1=1
+0.942383, 0.792279, 0.959961, 0.839154, 2
+NumMasksCamera2=0
+NumMasksCamera3=0
+NumMasksCamera4=5
+0.507324, 0.774816, 0.522461, 0.816176, 2
+0.929688, 0.056985, 0.945801, 0.084559, 2
+0.444336, 0.158088, 0.451660, 0.177390, 2
+0.758301, 0.962316, 0.791016, 1.000000, 2
+0.787598, 0.873162, 0.795410, 0.896140, 2
+NumMasksCamera5=2
+0.435059, 0.557904, 0.443848, 0.574449, 2
+0.783203, 0.530331, 0.822754, 0.587316, 2
+NumMasksCamera6=0
+NumMasksCamera7=0
+NumMasksCamera8=1
+0.124023, 0.542279, 0.151367, 0.612132, 2
+[CubeCalibDataCollectionParameters]
+AcquisitionMode=0
+TriggerOn=0
+Duration=1.000000
+FrameRate=60.000000
+Name=Cube8C
+Number=2
+[WandCalibDataCollectionParameters]
+AcquisitionMode=0
+TriggerOn=0
+Duration=120.000000
+FrameRate=2.000000
+Name=Wand8C
+Number=2
+[TrialDataCollectionParameters]
+AcquisitionMode=0
+TriggerOn=0
+Duration=15.000000
+FrameRate=50.000000
+Name=
+Number=0
+[ThreeDTrackingParams]
+Comment=LinkageOn, PerSizeChange, PredictionOn, PerPredication, ThreeDSearchRad, MaxResidual, MinX, MaxX, MinY, MaxY, MinZ, MaxZ, MinPathDuration, InertiaFactor, MaxMergeDistance
+LinkageOn=1
+PercentSizeChange=50
+PredictionOn=15
+PercentPrediction=100
+ThreeDSearchRadius=120.000000
+MaximumResidual=4.000000
+MinX=-1.000000e+010
+MaxX=1.000000e+010
+MinY=-1.000000e+010
+MaxY=1.000000e+010
+MinZ=-1.000000e+010
+MaxZ=1.000000e+010
+MinTrackDuration=1
+InertiaFactor=2.000000
+MaximumMergeDistance=1.000000
+MinumumMarkerSeparation=20.000000
+MaximumPredictorError=90.000000
+TwoDCorrespondenceError=6.000000
+MaxLinkStretch=15
+MaxLinkVariation=12
+MinCameras=3
+Identifying_nMissingAllowed=0
+[TwoDCentroidParams]
+Comment= MinLines, MaxLines, Overlap, LensCorrType
+MinimumLinesPerMarker=2
+MaximumLinesPerMarker=30
+Overlap=1
+LensCorrectionType=3
+ShapeAnalysis=1
+UsePerCameraSettings=1
+NumberOf=8
+1, 2, 30
+2, 2, 30
+3, 2, 30
+4, 2, 30
+5, 2, 30
+6, 2, 30
+7, 2, 30
+8, 2, 30
+[MiscCalibrationParameters]
+VideoWidth=2048
+VideoHeight=1088
+NumberOf=8
+1, 2048, 1088
+2, 2048, 1088
+3, 2048, 1088
+4, 2048, 1088
+5, 2048, 1088
+6, 2048, 1088
+7, 2048, 1088
+8, 2048, 1088
+[AutoLensCorrectionParameters]
+Comment= Cam#, xp[mm], yp[mm], dc, sx, a1, k1, k2, k3, p1, p2
+NumberOf=8
+1, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.501681e-003, 3.596822e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+2, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.606714e-003, 3.778430e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+3, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.588851e-003, 3.716562e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+4, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.466173e-003, 3.545294e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+5, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.529613e-003, 3.561642e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+6, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.546627e-003, 3.627290e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+7, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.590745e-003, 3.155194e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+8, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, 0.000000e+000, -1.543657e-003, 3.502634e-005, 0.000000e+000, 0.000000e+000, 0.000000e+000
+[CameraSensorParameters]
+Comment= Cam#, pix.sp u, pix.sp v, prin. pt u[mm], prin. pt v[mm], camera constant
+NumberOf=8
+1, 5.499674e-003, 5.500000e-003, 8.161038e-002, -1.899433e-002, 8.624095e+000
+2, 5.500147e-003, 5.500000e-003, 1.210669e-001, -1.175608e-001, 8.595502e+000
+3, 5.500307e-003, 5.500000e-003, 9.082219e-002, -1.441229e-001, 8.596513e+000
+4, 5.499169e-003, 5.500000e-003, -1.871482e-002, -7.601950e-002, 8.628798e+000
+5, 5.499811e-003, 5.500000e-003, 1.251923e-001, -7.160892e-002, 8.604387e+000
+6, 5.500393e-003, 5.500000e-003, 2.851106e-002, 2.116716e-002, 8.611546e+000
+7, 5.500771e-003, 5.500000e-003, 5.507920e-002, -5.278114e-002, 8.500200e+000
+8, 5.500029e-003, 5.500000e-003, 7.406493e-002, -7.280774e-002, 8.581710e+000
+[Calibration]
+Comment= X, Y, Z
+CaliFrameType=Square
+Units=mm
+WandLength=5.023100e+002
+WandMetricRefinement=1
+UnconstrainedIterations=0
+UpdateUpdatesLensCorrectionToo=0
+TranslationOffset=0.000000, 0.000000, 0.000000
+RotationOffset=0.000000, 0.000000, 0.000000
+AxisOfGravity=2
+NumberOfMarkers=4
+10.000000, 10.000000, 37.000000
+210.000000, 10.000000, 37.000000
+610.000000, 10.000000, 37.000000
+10.000000, 410.000000, 37.000000
+Filename_CalFrame=CalFrame
+Filename_CalWand=CalWand
+Filename_CalFloor=
+Filename_CalRefine=
+[CalibrationUVLocations]
+Comment=# of controls, cntrl#1, u, v, contr#2, ...
+NumberOfChannels=8
+4, 0, 1016.500000, 732.500000, 1, 1051.714233, 702.000000, 2, 1117.833374, 643.833313, 3, 917.714294, 691.000000
+4, 0, 872.277771, 823.111084, 1, 937.714294, 812.500000, 2, 1063.000000, 791.500000, 3, 826.285706, 728.500000
+0
+4, 0, 865.722229, 711.888916, 1, 903.117676, 745.411743, 2, 984.650024, 818.349976, 3, 966.599976, 668.599976
+4, 0, 955.000000, 628.799988, 1, 922.818176, 667.818176, 2, 850.384644, 753.615356, 3, 1073.615356, 665.384644
+4, 0, 1071.500000, 754.500000, 1, 1000.375000, 757.250000, 2, 848.882324, 761.588257, 3, 1112.000000, 879.000000
+4, 0, 925.500000, 711.285706, 1, 857.153870, 701.461548, 2, 725.615356, 680.615356, 3, 872.000000, 830.647034
+4, 0, 975.384644, 656.615356, 1, 944.636353, 621.909119, 2, 888.636353, 555.909119, 3, 857.866638, 695.466675
+[CalibrationCoeffecients]
+Comment=Coeff
+NumberOfCameras=8
+NumberOfCoeffecientsPerCamera=11
+1, -1.604992e-001, -1.109414e-001, 3.316457e-001, 1.017357e+003, 9.989352e-005, -1.051833e-004, 1.442342e-004, 1.462963e-001, 2.182450e-001, 2.146596e-001, 3.420275e+002
+2, 1.856024e-002, -5.757118e-002, 4.379703e-001, 8.662174e+002, 1.635998e-004, -1.297749e-004, 1.080234e-004, 3.008067e-001, 2.284187e-001, 8.627266e-002, 2.500872e+002
+3, 3.182289e-001, -1.636060e-001, 2.669981e-001, 9.718553e+002, 1.778653e-004, -1.381394e-004, -7.629895e-005, 2.997199e-001, 2.303215e-001, -1.020056e-001, 2.428490e+002
+4, 3.692319e-001, -9.374272e-002, 7.193157e-002, 8.595818e+002, 1.159594e-004, -1.108166e-004, -1.310291e-004, 1.592579e-001, 2.150732e-001, -2.145210e-001, 3.668473e+002
+5, 2.182660e-001, -1.379105e-001, -3.045561e-001, 9.541650e+002, -7.611862e-005, -1.275276e-004, -1.514346e-004, -1.250643e-001, 1.974027e-001, -2.611242e-001, 4.533271e+002
+6, -8.423412e-002, -7.011972e-002, -4.426574e-001, 1.071526e+003, -1.684582e-004, -1.558976e-004, -8.098354e-005, -3.525066e-001, 1.929576e-001, -3.894443e-002, 3.274885e+002
+7, -2.816581e-001, -2.217104e-001, -2.845457e-001, 9.339860e+002, -1.659247e-004, -1.662467e-004, 7.360789e-005, -3.471910e-001, 1.872346e-001, 8.012093e-002, 3.700763e+002
+8, -3.786645e-001, -1.082791e-001, -1.815140e-002, 9.802325e+002, -9.353836e-005, -1.212786e-004, 1.442776e-004, -1.343546e-001, 2.033450e-001, 2.466983e-001, 4.203002e+002
+[CameraPosition]
+Comment=Cam#,Tx,Ty,Tz,Rx,Ry,Rz
+Comment=ZYX EulerRotationOrder
+NumberOfCameras=8
+1, -2.264265e+003, 3.044060e+003, -3.145095e+003, 1.488508e+002, -3.452597e+001, -1.796373e+002
+2, -2.728268e+003, 3.049933e+003, -1.461268e+003, 1.699838e+002, -6.218778e+001, 1.528695e+002
+3, -2.666350e+003, 3.034180e+003, 1.397255e+003, -2.765774e+001, -6.876015e+001, -8.487253e+000
+4, -2.169548e+003, 3.036516e+003, 3.143761e+003, -3.520745e+001, -3.925947e+001, 4.411771e+000
+5, 1.882754e+003, 3.017843e+003, 3.115728e+003, -3.733654e+001, 2.610971e+001, -8.497954e-001
+6, 2.422804e+003, 3.027633e+003, 1.480031e+003, 2.448644e+000, 7.054719e+001, 4.537903e+001
+7, 2.368943e+003, 3.022984e+003, -1.417955e+003, 1.602766e+002, 7.147726e+001, -1.556561e+002
+8, 1.876369e+003, 3.022949e+003, -3.173524e+003, 1.429217e+002, 3.074439e+001, 1.764354e+002
+[UserCameraDescriptions]
+Comment=Cam#, FocalLength, FlagOrientation(0=Upright,1=UpsideDown,2=LeaningLeft,3=LeaningRight)
+NumberOfCameras=8
+1, 8.624095, 0
+2, 8.595502, 0
+3, 8.596513, 0
+4, 8.628798, 0
+5, 8.604387, 0
+6, 8.611546, 0
+7, 8.500200, 0
+8, 8.581710, 0
+[StudioSync]
+MasterCameraSyncOption=0
+[EagleCameras]
+Comment=Brightness (percent), ShutterSpeed (1/sec)
+ShutterSpeed=1000
+HardWareSyncEnabled=0
+SoftwareMasksOnly=1
+[AdditionalCameraInfo]
+Comment= Cam#, Model, Serial#, Version, Build Date, Build Data(HW), RinglightType, IPAddress, CalibrationStatus
+NumberOfCameras=8
+1, Nokov  , 66100201, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.201, 4
+2, Nokov  , 66100202, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.202, 4
+3, Nokov  , 66100203, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.203, 4
+4, Nokov  , 66100204, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.204, 4
+5, Nokov  , 66100205, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.205, 4
+6, Nokov  , 66100206, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.206, 4
+7, Nokov  , 66100207, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.207, 4
+8, Nokov  , 66100208, 16.11.0.3, JUN 23 2016 , Feb 20 2015, 14, 10.1.1.208, 4
+[3dScene]
+File=
+Origin=0.000000 0.000000 0.000000
+Orientation=0.000000 0.000000 0.000000
+[EMGDeviceConfiguration]
+SampleRate=1000
+SensorName1=Sensor 1
+SensorType1=none
+SensorName2=Sensor 2
+SensorType2=none
+SensorName3=Sensor 3
+SensorType3=none
+SensorName4=Sensor 4
+SensorType4=none
+SensorName5=Sensor 5
+SensorType5=none
+SensorName6=Sensor 6
+SensorType6=none
+SensorName7=Sensor 7
+SensorType7=none
+SensorName8=Sensor 8
+SensorType8=none
+SensorName9=Sensor 9
+SensorType9=none
+SensorName10=Sensor 10
+SensorType10=none
+SensorName11=Sensor 11
+SensorType11=none
+SensorName12=Sensor 12
+SensorType12=none
+SensorName13=Sensor 13
+SensorType13=none
+SensorName14=Sensor 14
+SensorType14=none
+SensorName15=Sensor 15
+SensorType15=none
+SensorName16=Sensor 16
+SensorType16=none
+[ReferenceVideoAliases]
+USB2.0 VGA UVC WebCam@device:pnp:\\?\usb#vid_04f2&pid_b48c&mi_00#6&5aaffc2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, 
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3, USB
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3994bc9d&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\gl, USB (1)
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3994bc9d&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196, USB (2)
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3994bc9d&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c922, USB (3)
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3994bc9d&0&0000#{65e8773d-8f56-11d0-a3b9-00a0, USB (4)
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3994bc9d&0&0000#{65e8773d-8f56-11d0-a3b9-, USB (5)
+USB 视频设备@device:pnp:\\?\usb#vid_046d&pid_09a6&mi_00#6&3994bc9d&0&0000#{65e8773d-8f56-11d0-a, USB (6)
+USB2.0 VGA UVC WebCam@device:pnp:\\?\usb#vid_04f2&pid_b48c&mi_00#6&8272f43&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, USB2
+Flea3 FL3-U3-13Y3M:12343507, Flea3 FL3
+Blackmagic WDM Capture@device:pnp:\\?\decklink#avstream#5&2eeaa742&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\decklinkcapture1, Blackmagic WDM Capture
+Decklink Video Capture@device:sw:{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{44A8B5C7-13B6-4211-BD40-35B629D9E6DF}, Decklink Video Capture
+Flea3 FL3-U3-13E4C:12292538, Flea3 FL3(1)
+Integrated Webcam@device:pnp:\\?\usb#vid_1bcf&pid_28be&mi_00#6&2480407c&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, Integrated Webcam

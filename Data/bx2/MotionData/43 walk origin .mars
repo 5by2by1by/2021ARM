@@ -1,0 +1,135 @@
+[General Information]
+Version=5
+ProjectName=walk
+ProjectComments1=
+ProjectComments2=
+ProjectComments3=Written out by Cortex 6.2.0.1718. Please do not hand edit this file.
+[Markers]
+Comment= Marker#, Name, Color, PhysicalColor, Size, Optional
+NumberOf=43
+1, Top.Head, 0, 0, 0.000000, 0
+2, R.Acromium, 1, 0, 0.000000, 0
+3, L.Acromium, 2, 0, 0.000000, 0
+4, Sternum, 3, 0, 0.000000, 0
+5, R.ASIS, 0, 4, 0.000000, 0
+6, L.ASIS, 4, 0, 0.000000, 0
+7, V.Sacral, 4, 0, 0.000000, 0
+8, R.Thigh.Upper, 5, 0, 0.000000, 0
+9, R.Thigh.Front, 6, 0, 0.000000, 0
+10, R.Thigh.Rear, 7, 0, 0.000000, 0
+11, R.Knee.Lat, 8, 0, 0.000000, 0
+12, R.Knee.Med, 9, 0, 0.000000, 0
+13, R.Shank.Upper, 10, 0, 0.000000, 0
+14, R.Shank.Front, 11, 0, 0.000000, 0
+15, R.Shank.Rear, 12, 0, 0.000000, 0
+16, R.Ankle.Lat, 13, 0, 0.000000, 0
+17, R.Midfoot.Lat, 14, 0, 0.000000, 0
+18, R.Toe.Lat, 15, 0, 0.000000, 0
+19, R.Toe.Tip, 0, 0, 0.000000, 0
+20, R.Toe.Med, 1, 0, 0.000000, 0
+21, R.Ankle.Med, 2, 0, 0.000000, 0
+22, R.Midfoot.Sup, 3, 0, 0.000000, 0
+23, R.Heel, 3, 0, 0.000000, 0
+24, L.Thigh.Upper, 5, 0, 0.000000, 0
+25, L.Thigh.Front, 6, 0, 0.000000, 0
+26, L.Thigh.Rear, 7, 0, 0.000000, 0
+27, L.Knee.Lat, 8, 0, 0.000000, 0
+28, L.Knee.Med, 9, 0, 0.000000, 0
+29, L.Shank.Upper, 10, 0, 0.000000, 0
+30, L.Shank.Front, 11, 0, 0.000000, 0
+31, L.Shank.Rear, 12, 0, 0.000000, 0
+32, L.Ankle.Lat, 13, 0, 0.000000, 0
+33, L.Midfoot.Lat, 14, 0, 0.000000, 0
+34, L.Toe.Lat, 15, 0, 0.000000, 0
+35, L.Toe.Tip, 0, 0, 0.000000, 0
+36, L.Toe.Med, 1, 0, 0.000000, 0
+37, L.Ankle.Med, 2, 0, 0.000000, 0
+38, L.Midfoot.Sup, 3, 0, 0.000000, 0
+39, L.Heel, 4, 0, 0.000000, 0
+40, origin1 front left, 4, 0, 0.000000, 0
+41, origin2 front right, 4, 0, 0.000000, 0
+42, origin 3 back right, 4, 0, 0.000000, 0
+43, origin 4 back leftt, 4, 0, 0.000000, 0
+[VirtualMarkers]
+Comment= Marker#, Name, CalculationType, OriginMarker#, LongAxisMarker#, Segment#
+Comment= PlaneAxisMarker#, XPositionOffset, YPositionOffset, ZPositionOffset
+Comment= Calculation Types : 2 = 2 pt. ratio, 3 = 2 pt. measured value
+Comment= Calculation Types : 4 = 3 pt. ratio, 5 = 3 pt. measured value
+Comment= Calculation Types : 6 = EMR marker, 7 = 1 pt. measured value, 8 = Relative to Bone
+NumberOf=0
+[VMJoinDefs]
+Comment= Marker#, CalculationType, OriginMarker#, LongAxisMarker#, PlaneAxisMarker#
+NumberOf=0
+[Linkages]
+Comment= Name, LinkColor, LinkType, Marker1# Marker2#, MinLength, MaxLength, ExtraStretch
+NumberOf=52
+Link, 0, 0, 2 1, 369.380310, 389.790283, 0.150000, 0
+Link, 0, 0, 3 1, 348.087738, 365.726471, 0.150000, 0
+Link, 0, 0, 3 2, 344.198608, 357.149750, 0.150000, 0
+Link, 0, 0, 4 2, 262.037323, 270.255768, 0.150000, 0
+Link, 0, 0, 4 3, 236.731186, 245.905945, 0.150000, 0
+Link, 0, 0, 5 2, 448.899933, 493.637909, 0.150000, 0
+Link, 0, 0, 6 3, 466.861755, 504.347076, 0.150000, 0
+Link, 0, 0, 6 5, 284.669891, 298.522064, 0.150000, 0
+Link, 0, 0, 7 5, 150.965591, 244.874863, 0.150000, 0
+Link, 0, 0, 7 6, 250.048233, 388.931061, 0.150000, 0
+Link, 0, 0, 8 5, 146.548569, 175.595245, 0.150000, 0
+Link, 0, 0, 9 8, 159.846375, 164.516830, 0.150000, 0
+Link, 0, 0, 10 8, 133.152466, 137.676407, 0.150000, 0
+Link, 0, 0, 10 9, 112.946304, 123.900238, 0.150000, 0
+Link, 0, 0, 11 10, 99.600464, 166.255814, 0.150000, 0
+Link, 0, 0, 13 12, 123.725609, 214.756287, 0.150000, 0
+Link, 0, 0, 15 11, 49.086796, 123.726166, 0.150000, 0
+Link, 0, 0, 15 12, 138.723114, 232.221863, 0.150000, 0
+Link, 0, 0, 15 13, 46.731113, 68.364761, 0.150000, 0
+Link, 0, 0, 15 14, 91.294746, 106.827316, 0.150000, 0
+Link, 0, 0, 16 14, 255.352295, 319.481171, 0.150000, 0
+Link, 0, 0, 17 16, 83.456436, 197.328735, 0.150000, 0
+Link, 0, 0, 18 17, 64.889832, 119.454315, 0.150000, 0
+Link, 0, 0, 19 18, 60.092209, 115.754196, 0.150000, 0
+Link, 0, 0, 20 19, 56.888432, 80.586807, 0.150000, 0
+Link, 0, 0, 21 14, 248.333405, 321.369263, 0.150000, 0
+Link, 0, 0, 21 16, 80.231117, 106.055771, 0.150000, 0
+Link, 0, 0, 22 20, 58.544388, 137.758209, 0.150000, 0
+Link, 0, 0, 22 21, 65.973534, 108.337326, 0.150000, 0
+Link, 0, 0, 23 16, 76.646004, 109.772079, 0.150000, 0
+Link, 0, 0, 23 21, 88.347389, 145.288040, 0.150000, 0
+Link, 0, 0, 24 6, 168.617386, 194.302322, 0.150000, 0
+Link, 0, 0, 25 24, 124.841263, 145.335159, 0.150000, 0
+Link, 0, 0, 26 24, 130.630524, 221.402176, 0.150000, 0
+Link, 0, 0, 26 25, 129.188126, 185.810715, 0.150000, 0
+Link, 0, 0, 27 26, 65.420471, 99.276909, 0.150000, 0
+Link, 0, 0, 29 28, 72.755356, 175.840836, 0.150000, 0
+Link, 0, 0, 31 27, 69.847076, 167.010330, 0.150000, 0
+Link, 0, 0, 31 28, 77.091042, 169.888214, 0.150000, 0
+Link, 0, 0, 31 29, 79.462936, 124.418602, 0.150000, 0
+Link, 0, 0, 31 30, 104.950981, 145.860947, 0.150000, 0
+Link, 0, 0, 32 30, 263.586029, 286.167114, 0.150000, 0
+Link, 0, 0, 33 32, 105.519760, 182.803177, 0.150000, 0
+Link, 0, 0, 34 33, 47.825546, 120.739586, 0.150000, 0
+Link, 0, 0, 35 34, 68.388184, 124.901237, 0.150000, 0
+Link, 0, 0, 36 35, 46.277409, 83.048004, 0.150000, 0
+Link, 0, 0, 37 30, 245.324463, 254.740875, 0.150000, 0
+Link, 0, 0, 37 32, 84.973289, 93.321983, 0.150000, 0
+Link, 0, 0, 38 36, 64.021690, 141.624741, 0.150000, 0
+Link, 0, 0, 38 37, 68.322319, 86.277878, 0.150000, 0
+Link, 0, 0, 39 32, 73.335182, 90.482918, 0.150000, 0
+Link, 0, 0, 39 37, 85.136658, 107.468048, 0.150000, 0
+[SkeletonType]
+Comment= Type: 0=None, 1=SkeletonBuilder, 2=Embedded Calcium Model, 3=Assoc. JNT file
+SkeletonType=0
+RotationOrder=ZYX
+BoneAxis=Y
+PlaneAxis=X
+[CalciumModel]
+[HtrExportOptions]
+BasePositionOption=1
+[Segments]
+Comment= Segment#, Name, Parent, OriginMarker#, LongAxisMarker#
+Comment= PlaneAxisMarker#, XRotationOffset, YRotationOffset, ZRotationOffset
+Comment= Segment 0 represents the Root segment
+NumberOf=0
+[Personal Info]
+Name=Default Name
+Height=0.000000
+Weight=0.000000
